@@ -1,0 +1,19 @@
+{
+    "name": "ozkar80/composer_practica_oscar",
+    "description": "Practica composer",
+    "type": "library",
+    "license": "gpl",
+    "authors": [
+        {
+            "name": "Oscar",
+            "email": "oscar@ejemplo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+	"autoload": {
+        "psr-0": {
+            "HelloWorld": "src/" 
+        }
+    }
+}
